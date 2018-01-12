@@ -1,7 +1,7 @@
 # nicar18_python_1
 Files and code for a Python 1 hands-on session at NICAR18 in Chicago
 
-#Tentative outline for class
+# Tentative outline for class
 
 I. Overview of why this is a good language to learn on, how it may be different from others
 
