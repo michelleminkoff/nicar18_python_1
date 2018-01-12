@@ -1,9 +1,12 @@
 Files and code for a Python 1 hands-on session at NICAR18 in Chicago
 
-# Possible data sets
+# Possible data sets that I've worked with in the past
+
+All of these could use some cleanup and have some fairly straightforward analysis and graphing potential. They all live in the "possible_data_sets" folder in this repo.
+
 * Simpler FBI hate crimes stats (by state): https://ucr.fbi.gov/hate-crime/2016/tables/table-12 (fbi_hate_crimes_by_state.xls)
 * More complex FBI hate crimes stats (state and agency): https://ucr.fbi.gov/hate-crime/2016/tables/table-13/table_13_hate_crime_incidents_per_bias_motivation_and_quarter_by_state_and_agency_2016.xls/view (hate_crimes_fbi_state_and_agency.xls)
-* Simpler workplace accidents (Industry by event or exposure): https://www.bls.gov/iif/oshcfoi1.htm#2016 (fatal_accident_simpler.xlsx)
+* Simpler workplace accidents (Grouped by industry by event or exposure): https://www.bls.gov/iif/oshcfoi1.htm#2016 (fatal_accident_simpler.xlsx)
 * More complex workplace accidents (Event or exposure by age): https://www.bls.gov/iif/oshcfoi1.htm#2016 (fatal_accident_by_event_exposure_and_age.xlsx)
 
 
