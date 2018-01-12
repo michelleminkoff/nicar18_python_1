@@ -1,5 +1,12 @@
 Files and code for a Python 1 hands-on session at NICAR18 in Chicago
 
+#Possible data sets
+	- Simpler FBI hate crimes stats (by state): https://ucr.fbi.gov/hate-crime/2016/tables/table-12 
+	- More complex FBI hate crimes stats (state and agency): https://ucr.fbi.gov/hate-crime/2016/tables/table-13/table_13_hate_crime_incidents_per_bias_motivation_and_quarter_by_state_and_agency_2016.xls/view
+	- Simpler workplace accidents (Industry by event or exposure): https://www.bls.gov/iif/oshcfoi1.htm#2016
+	- More complex workplace accidents (Event or exposure by age): https://www.bls.gov/iif/oshcfoi1.htm#2016
+
+
 # Tentative outline for hands-on session
 
 1. Overview of why this is a good language to learn on, how it may be different from others
