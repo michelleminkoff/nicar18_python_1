@@ -23,15 +23,14 @@ Simpler FBI hate crimes stats (by state): https://ucr.fbi.gov/hate-crime/2016/ta
 	* Numbers
 	* Strings
 		* Important functions:
-			* Slice
-			* Lower
+			* Slice (use numeric indices, -1 counts from end)
+			* Lower/upper
 			* Strip
-			* Starts with
-			* Find
+			* Startswith
+			* Find - look for a string within a string
 	* Booleans
 	* Lists
 		* Join function
-	* Sets
 	* Dictionaries
 
 4. Iteration
@@ -50,7 +49,6 @@ Simpler FBI hate crimes stats (by state): https://ucr.fbi.gov/hate-crime/2016/ta
 	* import datetime
 			oTime = datetime.datetime.now()
 			print oTime.isoformat()
-
 
 7. Pip (to gain access to more modules)
 	* explain how some modules built in/some can be pulled down
