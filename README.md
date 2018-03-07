@@ -56,6 +56,7 @@ Files and code for a Python 1 hands-on session at NICAR18 in Chicago
 
 8. Start use of Pandas to load and manipulate file
 	* find current directory with os.getcwd()
+	* We will use this file: https://catalog.data.gov/dataset/sex-offenders-938b3
 	* import pandas as pd
 	* input = pd.read_csv(PATH_TO_SEX_OFFENDERS_DATABASE);
 	* #row
