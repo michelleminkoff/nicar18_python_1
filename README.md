@@ -1,8 +1,5 @@
 Files and code for a Python 1 hands-on session at NICAR18 in Chicago
 
-# Data set we will download
-Simpler FBI hate crimes stats (by state): https://ucr.fbi.gov/hate-crime/2016/tables/table-12 (fbi_hate_crimes_by_state.xls)
-
 # Outline for hands-on session
 
 1. Open a Jupyter notebook file (link to download)
@@ -58,8 +55,9 @@ Simpler FBI hate crimes stats (by state): https://ucr.fbi.gov/hate-crime/2016/ta
 	* pull one down - like pip install pandas
 
 8. Start use of Pandas to load and manipulate file
+	* find current directory with os.getcwd()
 	* import pandas as pd
-	* input = pd.read_csv('/Users/mminkoff/Desktop/test.csv');
+	* input = pd.read_csv(PATH_TO_SEX_OFFENDERS_DATABASE);
 	* #row
 	* input.iloc[1]
 	* #column
