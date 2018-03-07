@@ -1,37 +1,25 @@
 Files and code for a Python 1 hands-on session at NICAR18 in Chicago
 
-# Possible data sets that I've worked with in the past
+# Data set we will download
+Simpler FBI hate crimes stats (by state): https://ucr.fbi.gov/hate-crime/2016/tables/table-12 (fbi_hate_crimes_by_state.xls)
 
-All of these could use some cleanup and have some fairly straightforward analysis and graphing potential. They all live in the "possible_data_sets" folder in this repo.
+# Outline for hands-on session
 
-* Simpler FBI hate crimes stats (by state): https://ucr.fbi.gov/hate-crime/2016/tables/table-12 (fbi_hate_crimes_by_state.xls)
-* More complex FBI hate crimes stats (state and agency): https://ucr.fbi.gov/hate-crime/2016/tables/table-13/table_13_hate_crime_incidents_per_bias_motivation_and_quarter_by_state_and_agency_2016.xls/view (hate_crimes_fbi_state_and_agency.xls)
-* Simpler workplace accidents (Grouped by industry by event or exposure): https://www.bls.gov/iif/oshcfoi1.htm#2016 (fatal_accident_simpler.xlsx)
-* More complex workplace accidents (Event or exposure by age): https://www.bls.gov/iif/oshcfoi1.htm#2016 (fatal_accident_by_event_exposure_and_age.xlsx)
+1. Open a Jupyter notebook file (link to download)
+	* Remember - hit Shift-Enter to run a cell!
 
-
-# Tentative outline for hands-on session
-
-1. Overview of why this is a good language to learn on, how it may be different from others
+2. Overview of why this is a good language to learn on, how it may be different from others
 	* Reliance on indentation
 	* Loose vs. strict typing
 	* Lots of built in functions and modules that can be imported
-	* (Show import gravity comic here)
-2. Writing basic code in the console
+	* (Show XKCD comic here: https://xkcd.com/353/)
 	* Do basic math
 	* Print out some text
-
-3. Creating code in a script
-	* Do basic math
 	* Integrate result in a sentence
 	* Print it out
 
-4. Running a script
-	* Path to a script
-	* Show scripts can be run with "python" and script path
-	* Discuss what is/isn't viewable from console
-
-5. Data types
+3. Data types
+	* Variables
 	* Numbers
 	* Strings
 		* Important functions:
@@ -46,18 +34,37 @@ All of these could use some cleanup and have some fairly straightforward analysi
 	* Sets
 	* Dictionaries
 
-6. Iteration
+4. Iteration
 	* Demonstrate sample with a list like ["dog", "cat"]
 	* Take our data file and load each row individually, to show what looping is
-7. Comments
+
+5. Comments
 	* Why do we use comments?
 	* How do we add them to a file?
-8. Importing modules
+
+6. Importing modules
 	* Load a sample module
 	* Where do we load it?
 	* What name do we use when referring to it?
 	* What's the difference between targeting a library and a module? (ex: from x import y)
-9. Pip (to gain access to more modules)
+	* import datetime
+			oTime = datetime.datetime.now()
+			print oTime.isoformat()
+
+
+7. Pip (to gain access to more modules)
 	* explain how some modules built in/some can be pulled down
 	* walk through online directory of what modules exist
-	* pull one down
+		* PyPi index
+		* https://wiki.python.org/moin/UsefulModules#Database
+	* pull one down - like pip install pandas
+
+8. Start use of Pandas to load and manipulate file
+	* import pandas as pd
+	* input = pd.read_csv('/Users/mminkoff/Desktop/test.csv');
+	* #row
+	* input.iloc[1]
+	* #column
+	* input['TOTAL CASES']
+	* #row and column
+	* input.iloc[3]['TOTAL CASES']
